@@ -29,7 +29,7 @@ class DetailWebFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val url = arguments?.getSerializable("url") as String
+        val url = arguments?.getSerializable("data") as String
 
         showWebPage(url)
     }

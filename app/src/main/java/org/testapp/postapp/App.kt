@@ -24,7 +24,7 @@ class App : Application() {
         super.onCreate()
         instance = this
         context = this
-        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         startKoin {
             androidLogger(Level.NONE)
             androidContext(this@App)
